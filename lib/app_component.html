@@ -1,0 +1,28 @@
+<!--
+  Copyright (c) 2017, the Dart project authors.
+  All rights reserved. Use of this source code
+  is governed by a BSD-style license that can be
+  found in the LICENSE file.
+-->
+
+<!--
+  2017/02/01 changed by Yoshiharu Ishikawa
+
+    purpose of change: test OnChanges
+
+    Line No    Changes
+    18---24    insert
+    27         comment out
+    28         insert
+-->
+
+<h1>Avast, Ye Pirates</h1>
+
+ <table>
+  <tr><td><input [(ngModel)]="textBox"></td></tr>
+  <tr><td>{{textBox}}</td></tr>
+  <tr><td>  <button (click)="clearText()"> Clear </button></td></tr>
+ </table>
+
+<!-- <pirate-badge></pirate-badge> -->
+<pirate-badge [textBox]="textBox"></pirate-badge>
