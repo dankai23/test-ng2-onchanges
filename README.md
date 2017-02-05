@@ -20,5 +20,5 @@ Test Angular2 Dart OnChanges in pirate badge sample.
     * push F12 key
     * input name
 
-4. snapshot  
-    * ![snapshot](./20170201-2.jpg)
+4. screenshot  
+    * ![screenshot](./20170201-2.jpg)
